@@ -1,8 +1,8 @@
 # CDK Contruct for Unleash feature flags
 
-CDK Contruct library that allows to deploy https://docs.getunleash.io/ on AWS.
+CDK Contruct library that allows you to deploy [Unleash feature-flags](https://www.getunleash.io/) on AWS without effort.
 
-
+Please visit https://www.getunleash.io/open-source if you are interested in the open source version of the software
 
 # Sample
 Here you can find samples, please head to example folder for more details
