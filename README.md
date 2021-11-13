@@ -4,6 +4,13 @@ CDK Contruct library that allows you to deploy [Unleash feature-flags](https://w
 
 Please visit https://www.getunleash.io/open-source if you are interested in the open source version of the software
 
+# Installation
+
+```bash
+npm i cdk-unleash
+```
+https://www.npmjs.com/package/cdk-unleash
+
 # Sample
 Here you can find samples, please head to example folder for more details
 
