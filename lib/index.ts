@@ -198,7 +198,7 @@ export class CdkUnleash extends cdk.Construct {
                     streamPrefix: `unleash_web_log`,
                     logRetention: RetentionDays.ONE_MONTH
                 }),
-                image: ecs.ContainerImage.fromAsset(__dirname + "/docker-unleash-web"),
+                image: ecs.ContainerImage.fromAsset(__dirname + "/../docker-unleash-web"),
                 environment: {
                     DATABASE_HOST: this.dbCluster.clusterEndpoint.hostname,
                     DATABASE_NAME: props.rds?.dbName || "unleash_db",
