@@ -1,6 +1,7 @@
 *.js
 !jest.config.js
 !lib/**/index.js
+!docker-unleash-web/*
 *.d.ts
 node_modules
 
