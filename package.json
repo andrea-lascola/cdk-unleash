@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "directories": {
-    "docker-unleash-web": "docker-unleash-web"
-  },
   "files": [
-    "dist"
+    "dist",
+    "docker-unleash-web"
   ],
   "scripts": {
     "build": "tsc",
