@@ -4,7 +4,7 @@ WORKDIR /unleash
 
 COPY index.js package.json ./
 
-RUN npm ci
+RUN npm i
 
 FROM node:14-alpine
 
